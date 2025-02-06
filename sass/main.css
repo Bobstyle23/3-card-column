@@ -167,6 +167,9 @@ button:hover {
   .car {
     padding: 4.8rem;
   }
+  .car__image {
+    margin-bottom: 2rem;
+  }
   .car__heading {
     margin-bottom: 1rem;
   }
