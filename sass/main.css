@@ -170,6 +170,9 @@ button:hover {
   .car__image {
     margin-bottom: 1.5rem;
   }
+  .car__heading {
+    margin-bottom: 0.5rem;
+  }
   .car__info {
     margin-bottom: 5.8rem;
   }
