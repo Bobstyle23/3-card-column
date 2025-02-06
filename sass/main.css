@@ -173,7 +173,7 @@ button:hover {
   .car__heading {
     margin-bottom: 0.5rem;
   }
-  .car__info {
-    margin-bottom: 5.8rem;
+  .car__link {
+    margin-top: auto;
   }
 }
