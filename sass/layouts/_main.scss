@@ -1,0 +1,22 @@
+.main {
+  max-width: 32.7rem;
+  width: 100%;
+  margin: 8.8rem auto;
+
+  border-radius: 0.8rem;
+  overflow: hidden;
+  @extend %grid;
+  justify-items: start;
+  align-items: stretch;
+
+}
+
+
+@include respond-to($breakpoint-desktops) {
+  .main {
+    max-width: 92rem;
+    height: 50rem;
+    margin: 17.1rem auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

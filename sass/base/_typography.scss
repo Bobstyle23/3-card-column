@@ -1,0 +1,7 @@
+%text-heading {
+  @include typography($size: 4rem, $weight: 700);
+}
+
+%text-info {
+  @include typography($size: 1.5rem, $height: 1.67);
+}
