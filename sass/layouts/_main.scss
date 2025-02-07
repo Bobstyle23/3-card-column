@@ -7,8 +7,6 @@
   overflow: hidden;
   @extend %grid;
   grid-template-rows: repeat(4, auto);
-  /* justify-items: start; */
-  /* align-items: stretch; */
 }
 
 @include respond-to($breakpoint-desktops) {
@@ -19,4 +17,3 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
